@@ -1,11 +1,10 @@
 void main() {
-  int idade = recuperarIdade();
-  print(idade);
+  var funcaoRecuperarIdade = recuperarIdade;
+
+  funcaoRecuperarIdade();
 }
 
 // TODA FUNÇÃO DEVE RETORNAR UM VALOR, NUNCA DEVE SER DEIXADO VAZIO
-int recuperarIdade() {
-  return 34;
+void recuperarIdade() {
+  print('Executando minha primeira função idade = 42');
 }
-
-
