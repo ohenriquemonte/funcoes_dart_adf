@@ -3,4 +3,16 @@ mkdir dart_funcoes
 cd dart_funcoes
 dart create -t console ./ --force
 
-------------------------------------------
+---------------------------------------------------------------------------------
+
+echo "# funcoes_dart_adf" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ohenriquemonte/funcoes_dart_adf.git
+git push -u origin main
+
+---------------------------------------------------------------------------------
+
+control + options = mostra as tipagens implícitas no código
