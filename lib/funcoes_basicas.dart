@@ -1,5 +1,5 @@
 void main() {
-  var funcaoRecuperarIdade = recuperarIdade;
+  Function funcaoRecuperarIdade = recuperarIdade;
 
   funcaoRecuperarIdade();
 }
