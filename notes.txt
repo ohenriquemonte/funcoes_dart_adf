@@ -1,0 +1,6 @@
+
+mkdir dart_funcoes
+cd dart_funcoes
+dart create -t console ./ --force
+
+------------------------------------------
