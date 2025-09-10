@@ -16,6 +16,7 @@ void main() {
 //   print(formatarEndereco());
 
   print(formatarEnderecoObrigatorio(rua: 'Rua A', cidade: 'Cidade B'));
+  print(formatarEnderecoObrigatorio(cidade: 'Cidade B', rua: 'Rua A'));
 }
 
 // // Records
